@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+  <title>Gerador de Senhas</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Gerador de Senha</h1>
+            <p>Tamanho de <span class="quantity_characters">12</span> caracteres</p>
+            <div class="length">
+                <input type="range" name="range_characters" id="range_characters" min="4" max="20">
+            </div>
+            <button class="button">Gerar Senha</button>
+            <div class="password"></div>
+            <span class="icon"><abbr title="Clique aqui para copiar a senha"><i class="material-icons"> content_copy</i></abbr></span>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
