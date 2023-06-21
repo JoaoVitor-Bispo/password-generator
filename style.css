@@ -2,26 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-@keyframes delayBlock {
-    from {
-        display: none;
-    }
-    to {
-        display: block;
-    }
-}
-
 body {
     background-color: #28282e;
+    background-image: url(campo-de-estrelas-de-alta-definicao-espaco-colorido-do-ceu-noturno-nebulosa-e-galaxias-no-espaco-fundo-do-conceito-de-astronomia_232070-8070.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main {
-    background-color: #19181C;
+    background-color: #201c29;
     color: white;
     width: 500px;
     font-family: 'Roboto';
     padding: 15px;
     margin: 120px auto;
-    border-radius: 8px;
+    border-radius: 9px;
     text-align: center;
 }
 
